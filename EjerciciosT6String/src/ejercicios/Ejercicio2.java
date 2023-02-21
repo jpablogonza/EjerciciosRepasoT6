@@ -10,7 +10,7 @@ public class Ejercicio2 {
 		String contraseña;
 		String cad2;
 		
-		//Abrimos el scanner
+		//Ceramos el scanner
 		Scanner sc = new Scanner(System.in);
 		
 		//Le pedimos al primer usuario la contraseña
