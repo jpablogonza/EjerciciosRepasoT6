@@ -13,8 +13,6 @@ public class Ejercicio5 {
 		//Creamos el scanner
 		Scanner sc = new Scanner(System.in);
 		
-		
-		
 		do {
 			System.out.println("Introduce una palabra y para acabar escribe \"fin\":");
 			palabra = sc.next();
@@ -26,10 +24,11 @@ public class Ejercicio5 {
 			
 		}
 	
-		
+		//Mostramos la frase completa
 		System.out.println("La frase sería: " + frase);
 		
-
+		//Cerramos el scanner
+		sc.close();
 	}
 
 }
